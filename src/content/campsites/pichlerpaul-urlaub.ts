@@ -3,210 +3,185 @@ import type { CampsiteConfig } from "../types";
 const IMG = "/campsites/pichlerpaul-urlaub";
 
 const pichlerpaulUrlaub: CampsiteConfig = {
-  name: "Da Bräuhauser",
+  name: "da' Bräuhauser",
   shortName: "Bräuhauser",
   slug: "pichlerpaul-urlaub",
   ort: "Stadl an der Mur",
   region: "Steiermark",
-  brandKind: "Camping am Bauernhof",
-  regionLong: "Bezirk Murau · Steiermark · Österreich",
+  brandKind: "Bauernhof & Camping",
+  regionLong: "Region Murau-Kreischberg · Steiermark · Österreich",
 
   heroVariant: "center",
 
-  claim: "Camping am Bauernhof, am Fuße des Kreischbergs",
+  claim: "Camping am Bauernhof — mitten in der Murauer Bergwelt",
   claimEmphasis: "am Bauernhof",
-  emailDetail: "eure Jausenstation mit Schmankerln aus eigener Landwirtschaft",
+  emailDetail: "euer kleiner Campingplatz direkt am Murradweg",
   intro:
-    "Ein kleiner, familiär geführter Campingplatz am Bauernhof — direkt am Murradweg und am Fuße des Kreischbergs. Ruhige Stellplätze, Tiere zum Anfassen und eine Jausenstation mit Schmankerln aus eigener Landwirtschaft.",
+    "Bei Familie Pichler Paul campst du direkt am Murradweg, am Fuße des Kreischbergs: ein kleiner, familiärer Platz mit eigenem Bauernhof, hausgemachten Schmankerln und jeder Menge Tieren für die Kinder.",
 
   statement: {
-    text: "Bei uns wachst du morgens zwischen Wiese und Bergen auf — und mittags gibt's die Jause aus eigener Landwirtschaft.",
-    emphasis: "aus eigener Landwirtschaft",
+    text: "Hier gehören Stellplatz, Stall und Jausenstation zusammen — und man kennt sich noch beim Vornamen.",
+    emphasis: "kennt sich noch",
   },
 
   pillars: [
     {
-      title: "Camping am Murradweg",
-      text: "Ruhige Stellplätze mit Wasser und Strom, mitten in der Natur am Fuße des Kreischbergs — der Murradweg führt direkt vorbei.",
-      image: { src: `${IMG}/gallery-f99ac1df54.webp`, alt: "Blick über den Campingplatz mit Wohnmobilen und Bergkulisse" },
+      title: "Kleiner, feiner Platz",
+      text: "Unser Campingplatz in Stadl-Predlitz liegt in ruhiger Lage am Fuße des Kreischbergs — Stellplätze mit Wasser und Strom, mitten in unberührter Natur.",
+      image: { src: `${IMG}/gallery-53e7f08eeb.webp`, alt: "Luftaufnahme vom Campingplatz da' Bräuhauser" },
     },
     {
-      title: "Echter Bauernhof",
-      text: "Kühe und Kälber, Schweine, Schafe, Hasen und Katzen freuen sich auf deinen Besuch — Urlaub am Bauernhof zum Anfassen und Mitleben.",
-      image: { src: `${IMG}/kids-fc4dbfa65e.webp`, alt: "Familie und Kinder füttern ein Schaf am Weidezaun des Bauernhofs Bräuhauser" },
+      title: "Urlaub am Bauernhof",
+      text: "Kühe und Kälber, Schweinchen, Schafe, Katzen und Hasen freuen sich auf deinen Besuch — ein familiär geführter Hof zum Anfassen und Erleben.",
+      image: { src: `${IMG}/kids-fc4dbfa65e.webp`, alt: "Familie streichelt ein Schaf am Bauernhof da' Bräuhauser" },
     },
     {
-      title: "Eigene Jausenstation",
-      text: "Most, Säfte, Speck und Hauswürste aus eigener Landwirtschaft — serviert in unserer Jausenstation mit großer Sonnenterrasse.",
-      image: { src: `${IMG}/gallery-276696b853.webp`, alt: "Sonnenterrasse der Jausenstation Bräuhauser mit gelben Murauer-Schirmen und Gästen" },
+      title: "Hausgemacht & herzlich",
+      text: "In der Jausenstation verwöhnen wir dich mit Most, Speck, Säften und Hauswürsten aus eigener Landwirtschaft — mit viel Liebe selbst gemacht.",
+      image: { src: `${IMG}/gallery-986a26cb23.webp`, alt: "Brettljause mit hausgemachten Produkten in der Jausenstation" },
     },
   ],
 
   usps: [
     "Direkt am Murradweg",
-    "Stellplätze mit Strom",
-    "Urlaub am Bauernhof",
-    "Eigene Jausenstation",
+    "Eigener Bauernhof",
+    "Hausgemachte Jause",
+    "Wasser & Strom am Platz",
     "Sommer- & Wintercamping",
-    "WLAN vorhanden",
+    "Kinderspielplatz",
   ],
 
   trust: {
-    heading: "Drei Welten an einem Platz",
-    headingEmphasis: "Drei Welten",
+    heading: "Bei uns ist Urlaub noch Handarbeit",
+    headingEmphasis: "Handarbeit",
     intro:
-      "Campingplatz, Bauernhof und Jausenstation gehen hier ineinander über: kurze Wege, viel Natur und eine Familie, die ihre Produkte noch selbst erzeugt — vom Most bis zur Hauswurst.",
+      "Wir führen Bauernhof, Camping und Jausenstation mit Qualität und Liebe — hier kommen die Produkte vom eigenen Hof, die Wege sind kurz und die Atmosphäre bleibt familiär.",
   },
 
   awards: [],
 
   hero: {
-    aerial: { src: `${IMG}/kids-b7943e47d1.webp`, alt: "Wohnwagen mit Vorzelt auf der Wiese am Bräuhauser, Bergkulisse" },
+    aerial: { src: `${IMG}/kids-b7943e47d1.webp`, alt: "Wohnwagen mit Vorzelt auf der Wiese beim Campingplatz da' Bräuhauser" },
   },
 
   breather: {
-    image: { src: `${IMG}/accommodation-8538275f3e.webp`, alt: "Knorrige Bäume auf einem Bergrücken in der Murauer Bergwelt" },
-    line: "Die Reinheit der unberührten Murauer Bergwelt.",
+    image: { src: `${IMG}/gallery-9630f22b20.webp`, alt: "Wegweiser „da' Bräuhauser“ am Murradweg" },
+    line: "Da' Bräuhauser — mit Qualität und Liebe geführt.",
   },
 
   camping: {
-    heading: "Camping am Fuße des Kreischbergs",
+    heading: "Camping beim Bräuhauser",
     intro:
-      "Klein, ruhig und familiär — mit Wasser und Strom am Platz, dem Murradweg vor der Tür und einer Jausenstation, die den ganzen Tag für dich da ist.",
+      "Vom Stellplatz zum Stall, zur Jausenstation und auf den Murradweg sind es nur ein paar Schritte — kleiner Platz, kurze Wege, alles da.",
     features: [
       {
-        title: "Ruhige Wiesenplätze",
-        text: "Stellplätze in ruhiger Lage mit Wasser und Strom, zum Teil mit Kanal — auf gepflegter Wiese mit Blick in die Berge.",
-        image: { src: `${IMG}/gallery-cd0f970e93.webp`, alt: "Wohnwagen mit Vorzelt auf der Campingwiese mit Bergblick" },
+        title: "Ebene Wiesenstellplätze",
+        text: "Plätze in ruhiger Lage mit Wasser und Strom, zum Teil mit Kanal — gepflegt und eben für Wohnwagen, Wohnmobil und Zelt.",
+        image: { src: `${IMG}/gallery-cd0f970e93.webp`, alt: "Wohnwagen mit Vorzelt auf einem Wiesenstellplatz" },
       },
       {
-        title: "Klein & überschaubar",
-        text: "Ein kleiner, feiner Platz, auf dem man sich noch kennt — mit genug Raum für Wohnwagen, Wohnmobil und ein ruhiges Stück Natur.",
-        image: { src: `${IMG}/gallery-53e7f08eeb.webp`, alt: "Luftaufnahme des überschaubaren Campingplatzes mit Stellplätzen" },
+        title: "Sommer-, Winter- & Dauercamping",
+        text: "Ob ein paar Sommertage oder Wintercamping vor den Skibergen Kreischberg, Turracher Höhe und Flattnitz — bei uns campst du das ganze Jahr.",
+        image: { src: `${IMG}/gallery-f99ac1df54.webp`, alt: "Wohnmobile am Campingplatz mit Blick auf die Berge" },
       },
       {
-        title: "Direkt am Murradweg",
-        text: "Der bekannte Murradweg führt direkt am Platz vorbei — ein idealer Ausgangspunkt für Radtouren entlang der grünen Mur.",
-        image: { src: `${IMG}/kids-77fd1dc89b.webp`, alt: "Familie beim Radfahren am Murradweg vor der Bergkulisse" },
+        title: "Tiere rund um den Platz",
+        text: "Der Bauernhof grenzt direkt an den Campingplatz — Schafe, Schweinchen und Kälber sind nur ein paar Schritte vom Vorzelt entfernt.",
+        image: { src: `${IMG}/gallery-5a01e04c56.webp`, alt: "Schafe auf der Weide am Bauernhof da' Bräuhauser" },
       },
       {
-        title: "Sommer- & Wintercamping",
-        text: "Auch im Winter ein Zuhause: Die Skigebiete Kreischberg, Turracher Höhe und Flattnitz sind in kurzer Zeit erreichbar.",
-        image: { src: `${IMG}/gallery-e4f8b0eecc.webp`, alt: "Kinder beim Eishockey auf dem Natureislaufplatz im Winter" },
+        title: "Jausenstation & Sonnenterrasse",
+        text: "60 Sitzplätze, eine große Sonnenterrasse, Tischtennis und ein Spielraum — den ganzen Tag für Haus- und Campinggäste geöffnet.",
+        image: { src: `${IMG}/kids-3181d5042d.webp`, alt: "Tischtennis auf der Sonnenterrasse der Jausenstation" },
       },
       {
-        title: "Jausenstation am Platz",
-        text: "Regionale Jause, ein kühles Murauerbier und hausgemachte Säfte — den ganzen Tag für Haus- und Campinggäste geöffnet.",
-        image: { src: `${IMG}/gallery-986a26cb23.webp`, alt: "Brettljause mit Speck, Käse, Brot und Hausgemachtem" },
+        title: "Frühstück vom eigenen Hof",
+        text: "Morgens ein Frühstücksbüffet mit vorwiegend hauseigenen Produkten — Marmeladen, Säfte und Speck, mit viel Liebe selbst gemacht.",
+        image: { src: `${IMG}/gallery-672af3be49.webp`, alt: "Frühstück und Kaffee in der gemütlichen Stube" },
       },
       {
-        title: "Gemütliche Gaststube",
-        text: "60 Sitzplätze, eine große Sonnenterrasse und ein Spielraum laden zum gemütlichen Beisammensein mit der Familie ein.",
-        image: { src: `${IMG}/gallery-8f6a95f407.webp`, alt: "Gemütliche Gaststube mit Holzmöbeln und gedeckten Tischen" },
-      },
-    ],
-  },
-
-  mobilheime: {
-    heading: "Zimmer & Apartments",
-    intro:
-      "Lieber ein festes Dach über dem Kopf? Gemütliche Zimmer und drei neue Ferienapartments — mit Vollholzmöbeln, viel Ruhe und Frühstück aus eigener Landwirtschaft.",
-    items: [
-      {
-        name: "Zimmer am Murradweg",
-        kind: "Doppel- & Familienzimmer",
-        text: "1 Doppelzimmer und 2 Familienzimmer für bis zu 4 Personen — mit Dusche/WC, Sat-TV, Kühlschrank und teilweise Balkon.",
-        image: { src: `${IMG}/gallery-facdd8abfe.webp`, alt: "Helles Zimmer mit naturbelassenen Vollholzmöbeln" },
-        priceFrom: 70,
-        features: ["Dusche/WC & Sat-TV", "Naturbelassene Vollholzmöbel", "Teilweise Balkon", "Frühstücksbüffet"],
-      },
-      {
-        name: "Ferienapartments",
-        kind: "Apartment für 2–6 Personen",
-        text: "Drei neue, gemütliche Apartments inkl. Bettwäsche — wahlweise mit Frühstück oder Halbpension, WLAN inklusive.",
-        image: { src: `${IMG}/accommodation-c888459d45.webp`, alt: "Wohnraum eines Ferienapartments mit Küche und Essbereich" },
-        priceFrom: 140,
-        features: ["2 bis 6 Personen", "Inkl. Bettwäsche", "WLAN vorhanden", "Frühstück / Halbpension"],
+        title: "Gemütliche Bauernstube",
+        text: "Eine Bauernstube mit Kachelofen und ein gemütlicher Aufenthaltsraum laden zum Verweilen ein — drinnen wie draußen fühlst du dich gleich zuhause.",
+        image: { src: `${IMG}/gallery-8f6a95f407.webp`, alt: "Gemütliche Bauernstube mit Holztischen" },
       },
     ],
   },
 
   kinder: {
-    heading: "Für kleine Gäste",
+    heading: "Kinderzeit am Bräuhauser",
     intro:
-      "Sandkiste, Trampolin, Spielraum und jede Menge Tiere — bei uns dürfen Kinder den ganzen Tag draußen sein.",
+      "Tiere füttern, im Sand buddeln, Tischtennis spielen und am Nachmittag ein Eis — bei uns sind die Kleinen den ganzen Tag draußen.",
     features: [
       {
+        title: "Tiere zum Streicheln",
+        text: "Hasen, Katzen, Schafe und Schweinchen warten auf kleine Streichelhände — Bauernhofleben zum Anfassen, gleich nebenan.",
+        image: { src: `${IMG}/gallery-47424dd36b.webp`, alt: "Zwei Hasen am Bauernhof da' Bräuhauser" },
+      },
+      {
         title: "Spielplatz & Sandkiste",
-        text: "Ein Kinderspielplatz mit Sandkiste direkt an der Sonnenterrasse — die Eltern haben den Nachwuchs dabei immer im Blick.",
-        image: { src: `${IMG}/kids-fa0b497cc4.webp`, alt: "Kinder spielen in der Sandkiste am Bräuhauser" },
+        text: "Kinderspielplatz, Sandkiste und ein eigener Spielraum sorgen dafür, dass garantiert keine Langeweile aufkommt.",
+        image: { src: `${IMG}/gallery-ab2321c02c.webp`, alt: "Kinder spielen in der Sandkiste an der Jausenstation" },
       },
       {
-        title: "Toben im Grünen",
-        text: "Trampolin und viel Wiese rund um den Hof — Platz zum Austoben zwischen Obstbäumen und Bergen.",
-        image: { src: `${IMG}/kids-fa8eb38c2e.webp`, alt: "Kind springt auf dem Trampolin in der Obstwiese" },
-      },
-      {
-        title: "Tiere zum Anfassen",
-        text: "Hasen, Schafe, Schweine und Katzen wollen gestreichelt und gefüttert werden — Bauernhof zum Mitleben.",
-        image: { src: `${IMG}/gallery-47424dd36b.webp`, alt: "Zwei zutrauliche Hasen im Stall am Bauernhof" },
+        title: "Eis & Badespaß",
+        text: "Der Badesee mit großer Freizeitanlage liegt nur zehn Gehminuten entfernt — und ein leckeres Eis gehört zum Sommer natürlich dazu.",
+        image: { src: `${IMG}/gallery-f1f675d601.webp`, alt: "Zwei Kinder essen Eis am Bauernhof" },
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Rund um Stadl an der Mur",
+    heading: "Raus in die Murauer Bergwelt",
     intro:
-      "Wandern, Radfahren und Skifahren — die Murauer Bergwelt beginnt praktisch direkt vor dem Vorzelt.",
+      "Wandern, Radeln am Murradweg und Baden am See — rund um den Platz liegt eine der schönsten Ecken der Steiermark direkt vor dem Vorzelt.",
     items: [
       {
-        title: "Wandern in der Bergwelt",
-        text: "Geführte Familienwanderungen und unzählige Touren in die unberührte Bergwelt rund um den Kreischberg.",
-        image: { src: `${IMG}/activity-02a026a35c.webp`, alt: "Gipfelkreuz auf einem Berg in der Murauer Bergwelt" },
+        title: "Wandern & Gipfelglück",
+        text: "Geführte Familienwanderungen und unzählige Touren in die umliegende Bergwelt starten direkt vom Platz — leicht bis anspruchsvoll.",
+        image: { src: `${IMG}/activity-02a026a35c.webp`, alt: "Gipfelkreuz in der Murauer Bergwelt" },
       },
       {
-        title: "Skifahren am Kreischberg",
-        text: "46 Pistenkilometer am WM-Berg Kreischberg, nur rund 8 km entfernt — dazu Turracher Höhe und Flattnitz.",
-        image: { src: `${IMG}/gallery-04dc7b955f.webp`, alt: "Skifahren auf den Pisten am Kreischberg" },
+        title: "Radeln am Murradweg",
+        text: "Der bekannte Murradweg führt direkt am Haus vorbei — vom Lungau bis Radkersburg, ein idealer Ausgangspunkt für Touren entlang der Mur.",
+        image: { src: `${IMG}/kids-77fd1dc89b.webp`, alt: "Familie beim Radfahren am Murradweg" },
       },
       {
-        title: "Radtouren entlang der Mur",
-        text: "Der Murradweg und ein weites Radwegenetz führen direkt am Haus vorbei — vom Lungau bis nach Radkersburg.",
-        image: { src: `${IMG}/gallery-c66778cc00.webp`, alt: "Radfahrer auf dem Murradweg durch grüne Wiesen" },
+        title: "Natur pur am Kreischberg",
+        text: "Klare Luft, unberührte Landschaft und die Ruhe der Berge — am Fuße des Kreischbergs findest du Erholung abseits vom Trubel.",
+        image: { src: `${IMG}/accommodation-8538275f3e.webp`, alt: "Berglandschaft am Fuße des Kreischbergs" },
       },
     ],
   },
 
   anreise: {
-    heading: "Anreise ins obere Murtal",
+    heading: "Dein Weg nach Stadl an der Mur",
     modes: [
       {
         title: "Mit dem Auto",
-        text: "Über die Tauernautobahn A10 und weiter durch das obere Murtal (B97) bis Stadl an der Mur — Steindorf 23a.",
+        text: "Über die A10 (Tauernautobahn) bis ins obere Murtal, dann auf der B96/B97 Richtung Murau und Tamsweg bis Stadl an der Mur, Steindorf 23a.",
       },
       {
         title: "Mit der Bahn",
-        text: "Bahnhof in Murau, von dort bringen dich regionale Verbindungen weiter nach Stadl an der Mur.",
+        text: "Per Bahn nach Murau und weiter mit der historischen Murtalbahn — von dort sind es nur wenige Minuten mit Bus oder Abholung nach Stadl.",
       },
       {
         title: "Mit dem Flugzeug",
-        text: "Die Flughäfen Salzburg und Klagenfurt liegen jeweils rund 1,5 Autostunden entfernt.",
+        text: "Die Flughäfen Salzburg und Klagenfurt liegen jeweils rund eineinhalb Autostunden entfernt.",
       },
     ],
   },
 
   galerie: {
-    heading: "Willkommen beim Bräuhauser",
+    heading: "Eindrücke vom Bräuhauser",
     headingEmphasis: "Bräuhauser",
-    intro: "Ein paar Eindrücke von Hof, Jausenstation und den Tagen am Platz.",
-    tag: "Stadl an der Mur · Murau",
+    intro: "Hof, Tiere, Stube und Camping — ein paar Eindrücke aus dem Urlaub bei Familie Pichler Paul.",
+    tag: "Stadl an der Mur",
     moreCount: 24,
     images: [
-      { src: `${IMG}/gallery-9630f22b20.webp`, alt: “Hölzerne 'da Bräuhauser'-Willkommenstafel mit Holzstock-Herz am Murradweg” },
-      { src: `${IMG}/gallery-ab2321c02c.webp`, alt: “Kinder spielen in der Sandkiste vor der Jausenstation Bräuhauser” },
-      { src: `${IMG}/gallery-f1f675d601.webp`, alt: "Zwei Kinder mit Eis vor der Bergkulisse" },
-      { src: `${IMG}/gallery-672af3be49.webp`, alt: "Gäste beim Frühstück mit hauseigenen Produkten" },
-      { src: `${IMG}/gallery-3702ed9fcb.webp`, alt: "Frisches Salatbüffet in der Jausenstation" },
+      { src: `${IMG}/gallery-22f892b4a3.webp`, alt: "Familie Pichler Paul vor dem Bauernhaus" },
+      { src: `${IMG}/gallery-10821ab6d8.webp`, alt: "Schweine auf der Weide am Bauernhof" },
+      { src: `${IMG}/gallery-facdd8abfe.webp`, alt: "Gemütliches Zimmer mit Vollholzmöbeln" },
+      { src: `${IMG}/accommodation-c888459d45.webp`, alt: "Ferienwohnung beim Bräuhauser" },
     ],
   },
 
@@ -214,17 +189,18 @@ const pichlerpaulUrlaub: CampsiteConfig = {
     heading: "Sichere dir deinen Platz beim Bräuhauser",
     headingEmphasis: "beim Bräuhauser",
     intro:
-      "Wähle Zeitraum und Unterkunft — Familie Pichler meldet sich persönlich mit deiner Verfügbarkeit zurück.",
+      "Wähle Zeitraum und Personen — Familie Pichler Paul meldet sich persönlich mit deiner Verfügbarkeit für Stellplatz, Zimmer oder Apartment.",
     pricesArePlaceholder: false,
     priceNote:
-      "ab-Preise pro Nacht für 2 Personen, exkl. Kurtaxe · Camping-Stellplatz auf Anfrage — bitte mit der Familie bestätigen.",
+      "Zimmer- und Apartmentpreise als ab-Werte pro Nacht für 2 Personen, exkl. Kurtaxe (laut Website); Stellplatz-Preise auf Anfrage.",
     highlight: {
-      title: "Hof, Camping & Jause",
-      text: "Alles an einem Platz — und die Jause kommt aus eigener Landwirtschaft.",
+      title: "Alles an einem Platz",
+      text: "Camping, Zimmer, Apartment, Bauernhof und Jausenstation — alles beim Bräuhauser vereint.",
     },
     categories: [
-      { id: "stellplatz", label: "Camping-Stellplatz" },
+      { id: "stellplatz", label: "Stellplatz" },
       { id: "doppelzimmer", label: "Doppelzimmer", perNight: 100 },
+      { id: "studio", label: "Studio", perNight: 85 },
       { id: "familienzimmer", label: "Familienzimmer", perNight: 130 },
       { id: "apartment", label: "Apartment", perNight: 140 },
     ],
@@ -247,13 +223,14 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       href: "#camping",
       children: [
         { label: "Stellplätze", href: "#camping" },
-        { label: "Zimmer & Apartments", href: "#mobilheime" },
+        { label: "Jausenstation", href: "#camping" },
       ],
     },
-    { label: "Bauernhof", href: "#kinder" },
+    { label: "Familie", href: "#kinder" },
     { label: "Aktiv", href: "#aktivitaeten" },
+    { label: "Galerie", href: "#galerie" },
     {
-      label: "Preise & Anreise",
+      label: "Preise & Lage",
       href: "#booking",
       children: [
         { label: "Preise", href: "#booking" },
