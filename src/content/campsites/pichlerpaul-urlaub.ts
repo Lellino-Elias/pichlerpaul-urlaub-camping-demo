@@ -27,17 +27,17 @@ const pichlerpaulUrlaub: CampsiteConfig = {
   pillars: [
     {
       title: "Kleiner, feiner Platz",
-      text: "Unser Campingplatz in Stadl-Predlitz liegt in ruhiger Lage am Fuße des Kreischbergs — Stellplätze mit Wasser und Strom, mitten in unberührter Natur.",
+      text: "Ruhige Lage am Fuße des Kreischbergs — Stellplätze mit Wasser und Strom mitten in unberührter Natur.",
       image: { src: `${IMG}/gallery-53e7f08eeb.webp`, alt: "Luftaufnahme vom Campingplatz da' Bräuhauser" },
     },
     {
       title: "Urlaub am Bauernhof",
-      text: "Kühe und Kälber, Schweinchen, Schafe, Katzen und Hasen freuen sich auf deinen Besuch — ein familiär geführter Hof zum Anfassen und Erleben.",
+      text: "Kühe, Kälber, Schafe und Hasen freuen sich auf deinen Besuch — familiärer Hof zum Anfassen und Erleben.",
       image: { src: `${IMG}/kids-fc4dbfa65e.webp`, alt: "Familie streichelt ein Schaf am Bauernhof da' Bräuhauser" },
     },
     {
       title: "Hausgemacht & herzlich",
-      text: "In der Jausenstation verwöhnen wir dich mit Most, Speck, Säften und Hauswürsten aus eigener Landwirtschaft — mit viel Liebe selbst gemacht.",
+      text: "Most, Speck, Säfte und Hauswürste aus eigener Landwirtschaft — unsere Jausenstation macht es selbst.",
       image: { src: `${IMG}/gallery-986a26cb23.webp`, alt: "Brettljause mit hausgemachten Produkten in der Jausenstation" },
     },
   ],
@@ -81,7 +81,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       },
       {
         title: "Sommer-, Winter- & Dauercamping",
-        text: "Ob ein paar Sommertage oder Wintercamping vor den Skibergen Kreischberg, Turracher Höhe und Flattnitz — bei uns campst du das ganze Jahr.",
+        text: "Vom Sommercamping bis zum Winter vor den Skibergen Kreischberg und Turracher Höhe — wir sind ganzjährig geöffnet.",
         image: { src: `${IMG}/gallery-f99ac1df54.webp`, alt: "Wohnmobile am Campingplatz mit Blick auf die Berge" },
       },
       {
@@ -101,7 +101,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       },
       {
         title: "Gemütliche Bauernstube",
-        text: "Eine Bauernstube mit Kachelofen und ein gemütlicher Aufenthaltsraum laden zum Verweilen ein — drinnen wie draußen fühlst du dich gleich zuhause.",
+        text: "Bauernstube mit Kachelofen und gemütlicher Aufenthaltsraum — drinnen wie draußen fühlst du dich zuhause.",
         image: { src: `${IMG}/gallery-8f6a95f407.webp`, alt: "Gemütliche Bauernstube mit Holztischen" },
       },
     ],
@@ -142,7 +142,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       },
       {
         title: "Radeln am Murradweg",
-        text: "Der bekannte Murradweg führt direkt am Haus vorbei — vom Lungau bis Radkersburg, ein idealer Ausgangspunkt für Touren entlang der Mur.",
+        text: "Der Murradweg führt direkt am Haus vorbei — idealer Ausgangspunkt für Touren entlang der Mur.",
         image: { src: `${IMG}/kids-77fd1dc89b.webp`, alt: "Familie beim Radfahren am Murradweg" },
       },
       {
