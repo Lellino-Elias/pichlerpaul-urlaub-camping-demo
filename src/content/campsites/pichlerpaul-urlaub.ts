@@ -148,7 +148,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       {
         title: "Natur pur am Kreischberg",
         text: "Klare Luft, unberührte Landschaft und die Ruhe der Berge — am Fuße des Kreischbergs findest du Erholung abseits vom Trubel.",
-        image: { src: `${IMG}/accommodation-8538275f3e.webp`, alt: "Berglandschaft am Fuße des Kreischbergs" },
+        image: { src: `${IMG}/activity-de72c68fc4.webp`, alt: "Weites Bergpanorama am Kreischberg" },
       },
     ],
   },
