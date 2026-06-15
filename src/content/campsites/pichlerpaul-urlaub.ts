@@ -28,7 +28,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
     {
       title: "Kleiner, feiner Platz",
       text: "Ruhige Lage am Fuße des Kreischbergs — Stellplätze mit Wasser und Strom mitten in unberührter Natur.",
-      image: { src: `${IMG}/gallery-53e7f08eeb.webp`, alt: "Luftaufnahme vom Campingplatz da' Bräuhauser" },
+      image: { src: `${IMG}/gallery-9243a48cc7.webp`, alt: "Campingplatz da' Bräuhauser mit Blick auf die Bergwelt" },
     },
     {
       title: "Urlaub am Bauernhof",
@@ -38,7 +38,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
     {
       title: "Hausgemacht & herzlich",
       text: "Most, Speck, Säfte und Hauswürste aus eigener Landwirtschaft — unsere Jausenstation macht es selbst.",
-      image: { src: `${IMG}/gallery-986a26cb23.webp`, alt: "Brettljause mit hausgemachten Produkten in der Jausenstation" },
+      image: { src: `${IMG}/gallery-fe128025c4.webp`, alt: "Brettljause mit hausgemachten Produkten aus eigener Landwirtschaft" },
     },
   ],
 
@@ -61,7 +61,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
   awards: [],
 
   hero: {
-    aerial: { src: `${IMG}/kids-b7943e47d1.webp`, alt: "Wohnwagen mit Vorzelt auf der Wiese beim Campingplatz da' Bräuhauser" },
+    aerial: { src: `${IMG}/gallery-33bde38c10.webp`, alt: "Luftaufnahme des Campingplatzes da' Bräuhauser inmitten der Murauer Bergwelt" },
   },
 
   breather: {
@@ -77,7 +77,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       {
         title: "Ebene Wiesenstellplätze",
         text: "Plätze in ruhiger Lage mit Wasser und Strom, zum Teil mit Kanal — gepflegt und eben für Wohnwagen, Wohnmobil und Zelt.",
-        image: { src: `${IMG}/gallery-cd0f970e93.webp`, alt: "Wohnwagen mit Vorzelt auf einem Wiesenstellplatz" },
+        image: { src: `${IMG}/gallery-47c0aad5d5.webp`, alt: "Luftaufnahme der Wiesenstellplätze beim Campingplatz da' Bräuhauser" },
       },
       {
         title: "Sommer-, Winter- & Dauercamping",
@@ -87,12 +87,12 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       {
         title: "Tiere rund um den Platz",
         text: "Der Bauernhof grenzt direkt an den Campingplatz — Schafe, Schweinchen und Kälber sind nur ein paar Schritte vom Vorzelt entfernt.",
-        image: { src: `${IMG}/gallery-5a01e04c56.webp`, alt: "Schafe auf der Weide am Bauernhof da' Bräuhauser" },
+        image: { src: `${IMG}/gallery-815bda1a7b.webp`, alt: "Gänse auf der Wiese am Bauernhof da' Bräuhauser" },
       },
       {
         title: "Jausenstation & Sonnenterrasse",
         text: "60 Sitzplätze, eine große Sonnenterrasse, Tischtennis und ein Spielraum — den ganzen Tag für Haus- und Campinggäste geöffnet.",
-        image: { src: `${IMG}/kids-3181d5042d.webp`, alt: "Tischtennis auf der Sonnenterrasse der Jausenstation" },
+        image: { src: `${IMG}/gallery-276696b853.webp`, alt: "Sonnenterrasse der Jausenstation da' Bräuhauser mit Gästen" },
       },
       {
         title: "Frühstück vom eigenen Hof",
@@ -102,7 +102,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       {
         title: "Gemütliche Bauernstube",
         text: "Bauernstube mit Kachelofen und gemütlicher Aufenthaltsraum — drinnen wie draußen fühlst du dich zuhause.",
-        image: { src: `${IMG}/gallery-8f6a95f407.webp`, alt: "Gemütliche Bauernstube mit Holztischen" },
+        image: { src: `${IMG}/gallery-72b4f0b603.webp`, alt: "Gemütliche Runde in der Bauernstube beim da' Bräuhauser" },
       },
     ],
   },
@@ -143,7 +143,7 @@ const pichlerpaulUrlaub: CampsiteConfig = {
       {
         title: "Radeln am Murradweg",
         text: "Der Murradweg führt direkt am Haus vorbei — idealer Ausgangspunkt für Touren entlang der Mur.",
-        image: { src: `${IMG}/kids-77fd1dc89b.webp`, alt: "Familie beim Radfahren am Murradweg" },
+        image: { src: `${IMG}/gallery-073dcad713.webp`, alt: "Familie beim Radfahren am Murradweg nahe Stadl an der Mur" },
       },
       {
         title: "Natur pur am Kreischberg",
@@ -178,10 +178,10 @@ const pichlerpaulUrlaub: CampsiteConfig = {
     tag: "Stadl an der Mur",
     moreCount: 24,
     images: [
-      { src: `${IMG}/gallery-22f892b4a3.webp`, alt: "Familie Pichler Paul vor dem Bauernhaus" },
-      { src: `${IMG}/gallery-10821ab6d8.webp`, alt: "Schweine auf der Weide am Bauernhof" },
-      { src: `${IMG}/gallery-facdd8abfe.webp`, alt: "Gemütliches Zimmer mit Vollholzmöbeln" },
-      { src: `${IMG}/accommodation-c888459d45.webp`, alt: "Ferienwohnung beim Bräuhauser" },
+      { src: `${IMG}/gallery-a677d5201b.webp`, alt: "Kinder spielen auf dem Zeltplatz beim da' Bräuhauser" },
+      { src: `${IMG}/gallery-4582c0f567.webp`, alt: "Jausenstation da' Bräuhauser mit Sonnenterrasse und Gästen" },
+      { src: `${IMG}/gallery-9323309660.webp`, alt: "Ortszentrum Stadl an der Mur mit Holzmuseum und Bergen" },
+      { src: `${IMG}/gallery-b8badf3882.webp`, alt: "Gemütliches Doppelzimmer im da' Bräuhauser" },
     ],
   },
 
